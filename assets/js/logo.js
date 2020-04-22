@@ -17,7 +17,7 @@ var jupiterRadius = 140,
     jupiterHeightSegments = 50;
 var jupiterMaterial = new THREE.MeshPhongMaterial({});
 var loader = new THREE.ImageLoader();
-loader.load("https://raw.githubusercontent.com/afonsopacifer/cdn/master/jupitermap.jpg", function (image) {
+loader.load("assets/img/jupitermap_w.jpg", function (image) {
   var texture = new THREE.Texture();
   texture.image = image;
   texture.needsUpdate = true;
